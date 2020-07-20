@@ -118,7 +118,7 @@ ZSH_THEME_GIT_PROMPT_UNMERGED="%{$fg_bold[red]%}✕"
 
 ZSH_THEME_SVN_PROMPT_PREFIX="%{$fg_bold[blue]%}rev:(%{$reset_color%}"
 ZSH_THEME_SVN_PROMPT_SUFFIX="%{$reset_color%} "
-ZSH_THEME_SVN_PROMPT_CLEAN="%{$fg_bold[blue]%}) %{$FG[040]%}✔"
+ZSH_THEME_SVN_PROMPT_CLEAN="%{$fg_bold[blue]%} %{$FG[040]%}✔"
 ZSH_THEME_SVN_PROMPT_DIRTY="%{$fg[red]%}✗"
 #ZSH_THEME_SVN_PROMPT_ADDITIONS="%{$fg_bold[blue]%}+"
 #ZSH_THEME_SVN_PROMPT_DELETIONS="%{$fg_bold[red]%}-"
