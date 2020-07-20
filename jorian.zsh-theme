@@ -102,7 +102,7 @@ function svn_repo_info() {
 # local ret_status="%(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ )"
 
 #PROMPT='%{$FG[226]%}%n%{$reset_color%} %{$FG[239]%}at%{$reset_color%} %{$FG[040]%}$(box_name)%{$reset_color%} %{$fg_bold[blue]%}%~%{$reset_color%} $(my_git_prompt) $(svn_repo_info) %{$reset_color%}  [%*]
-PROMPT='╭─%{$FG[040]%}%n%{$reset_color%}: %{$fg_bold[blue]%}%~%{$reset_color%} $(my_git_prompt) $(svn_repo_info) %{$reset_color%}
+PROMPT='╭─%{$FG[040]%}%n@%m%{$reset_color%} %{$fg_bold[blue]%}%~%{$reset_color%} $(my_git_prompt) $(svn_repo_info) %{$reset_color%}
 ╰─$(prompt_char)'
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$FG[239]%}on%{$reset_color%} "
